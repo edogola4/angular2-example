@@ -7,7 +7,9 @@ import { Directive, Input, HostListener } from '@angular/core';
   selector: '[textCopy]'
 })
 export class CopyTextDirective {
-  @Input('textCopy') text: string;
+  //@Input('textCopy') text: string;
+  @Input('textCopy') text!: string;
+
 
   @HostListener('click') onClick(): void {
     // Create a temporary textarea element
