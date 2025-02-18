@@ -9,7 +9,7 @@
       "removeComments": false,
       "noImplicitAny": false,
       "lib": ["es6", "dom"],
-      "strict": true
+      "strict": false
     }
   }
   
